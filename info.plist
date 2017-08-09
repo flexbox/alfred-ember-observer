@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.flexbox.emberobserver</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>8CC046B6-09E7-488E-AD04-648191EEEF82</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>967F6FC1-6397-43A7-8ED9-6B956B12AAF7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>David Leuliette</string>
+	<key>description</key>
+	<string>Alfred 3 workflow to discover and compare ember-cli addons - v1.0.0</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Ember observer seach</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ember</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Ember Observer</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8CC046B6-09E7-488E-AD04-648191EEEF82</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://emberobserver.com/?query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>967F6FC1-6397-43A7-8ED9-6B956B12AAF7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>8CC046B6-09E7-488E-AD04-648191EEEF82</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>967F6FC1-6397-43A7-8ED9-6B956B12AAF7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/flexbox/alfred-alfred-ember-observer#readme</string>
+</dict>
+</plist>
