@@ -4,10 +4,9 @@
 
 <img src="screenshot.png">
 
-
 ## Install
 
-Download [Ember observer seach.alfredworkflow](Ember observer seach.alfredworkflow)
+Download `.alfredworkflow` [in releases](https://github.com/flexbox/alfred-ember-observer/releases)
 
 *Requires the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
