@@ -7,7 +7,7 @@
 
 ## Install
 
-Download
+Download [Ember observer seach.alfredworkflow](Ember observer seach.alfredworkflow)
 
 *Requires the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
